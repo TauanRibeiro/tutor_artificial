@@ -1,0 +1,1 @@
+ grep -E "<filename>|<contenthash>" files.xml | awk 'NR%2{filename=$0; next} {contenthash=$0;  print ((substr(contenthash, 1, length(contenthash)-2) substr(filename, 18, length(filename)-31)) (contenthash, 0, 2) "/" substr(contenthash, 11, length(contenthash)-21)}'

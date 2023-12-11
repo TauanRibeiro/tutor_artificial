@@ -1,0 +1,13 @@
+Para selecionar o interpretador que será utilizado no VSCODE que, no nosso caso o ambiente é tutor_artificial, precisamos apertar as teclas de atalho Ctrl + Shift + P e digitar "Select Interpreter".
+
+Então, selecionamos o ambiente 'tutor_artificial', que utiliza a versão do Python 3.11.15.
+
+Downgrade gradio pra 3.48.0
+transformers 4.32.0
+
+aws p3
+yS;{s@-%vEM]#b7:[)e+/Bfz(UrKF4H$TqG86h"^mt>'X}L9_p
+
+git add * - adiciona as últimas mudanças
+git commit -am "<mensagem>" - define uma mensagem de commit
+git push 
